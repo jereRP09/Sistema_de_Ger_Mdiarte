@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gerenciamento Financeiro_Mdiarte</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <div id="container-logo">
+            <img src="media/logo_mdiarte.png" alt="logo"  id="logo">
+        </div>
+        <div id="menu">
+            <div>
+                Opção1
+            </div>
+            <div>
+                Opção2
+            </div>
+            <div style="padding-right: 15px;">
+                Opção3
+            </div>
+        </div>
+    </header> 
+    <main>
+        <aside id="side_left">
+            <p>
+                Sistema de <br>
+                Gerenciamento <br>
+                Financeiro
+            </p>
+        </aside>
+        <aside id="side_right">
+            <div id="data_hoje">
+                <label for="date">Digite a Data de hoje:</label><br>
+                <input type="date" id="date" class="entradas">
+            </div>
+            <div id="hora_agora">
+                <label for="time">Digite a hora em que está operação está sendo executada:</label><br>
+                <input type="time" id="time" class="entradas">
+            </div>
+            <div>
+                <p>Escolha a opção adequada:</p>
+                <div id="opcoes">
+                    <div class="btn">
+                        <a href="assets/enter.html" target="_blank">Entradas</a>
+                    </div>
+                    <div class="btn">
+                        <a href="assets/saida.html" target="_blank">Saídas</a>
+                    </div>
+                    <div class="btn">
+                        <a href="assets/caixa.html" target="_blank">Caixa</a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>  
+</body>
+</html>

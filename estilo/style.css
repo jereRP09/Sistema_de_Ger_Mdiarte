@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    text-align: justify;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px rgba(0, 0, 0, 0.404) solid;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+}
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px rgba(0, 0, 0, 0.404) solid;
+}
+#side_left{
+    padding: 30px;
+    width: 50%;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 120px;
+    text-align: right;
+}
+#side_right{
+    padding: 30px;
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.entradas{
+    background-color: #E6B1AB;
+    border: white;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+#opcoes{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.btn{
+    background-color: #E6B1AB;
+    border:1px solid #d46e64;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    user-select: none;
+    cursor: pointer;
+    transition: background-color 1s;
+    text-decoration: none;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn:hover{
+    background-color: #f58f83;
+}
+
